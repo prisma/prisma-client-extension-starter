@@ -1,6 +1,14 @@
 {
   "name": "example",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "ts-node --transpile-only index.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.15.0"
+  },
+  "devDependencies": {
+    "prisma": "^4.15.0",
+    "ts-node": "^10.9.1",
+    "typescipt": "^1.0.0"
   }
 }
