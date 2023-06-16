@@ -10,7 +10,7 @@ async function main() {
     where: {
       OR: [
         { title: { contains: 'prisma' } },
-        { title: { contains: 'prisma' } },
+        { content: { contains: 'prisma' } },
       ],
       published: true,
     },
