@@ -13,7 +13,7 @@ export const existsFn = (_extensionArgs: Args) =>
         ): Promise<boolean> {
 
           const ctx = Prisma.getExtensionContext(this)
-          const result = await (ctx.name as any).findFirst(args)
+          const result = await (ctx as any).findFirst(args)
           return result !== null
         },
       },
