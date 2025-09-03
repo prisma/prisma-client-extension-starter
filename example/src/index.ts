@@ -1,5 +1,5 @@
-import { PrismaClient } from "@prisma/client";
-import { existsFn } from "../dist"
+import { PrismaClient } from "./generated/prisma/client";
+import { existsFn } from "../../dist"
 
 const prisma = new PrismaClient().$extends(existsFn({}))
 
