@@ -15,26 +15,26 @@ Click the **Use this template** button and provide details for your Client exten
 Install the dependencies:
 
 ```
-npm install
+pnpm install
 ```
 
 Build the extension:
 
 ```
-npm run build
+pnpm run build
 ```
 
 Set up the example app:
 
 ```
 cd example
-npm install
-npx prisma db push
+pnpm install
+pnpm prisma db push
 ```
 
 Test the extension in the example app:
 ```
-npm run dev
+pnpm run dev
 ```
 
 ### Evolve the extension
